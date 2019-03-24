@@ -1,13 +1,18 @@
 {
   "Slots" : [ {
+    "id" : 0,
     "type" : 1
   }, {
+    "id" : 1,
     "type" : 1
   }, {
+    "id" : 2,
     "type" : 1
   }, {
+    "id" : 3,
     "type" : 1
   }, {
+    "id" : 4,    
     "Config" : {
       "Channel Mask" : "+--",
       "Channels" : [ {
@@ -58,12 +63,16 @@
     },
     "type" : 9
   }, {
+    "id" : 5,
     "type" : 1
   }, {
+    "id" : 6,
     "type" : 1
   }, {
+    "id" : 7,
     "type" : 1
   }, {
+    "id" : 8,
     "Config" : {
       "Channel Mask" : "-+-",
       "Channels" : [ {
@@ -120,6 +129,7 @@
     },
     "type" : 9
   }, {
+    "id" : 9,
     "type" : 1
   } ]
 }
