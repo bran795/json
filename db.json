@@ -1,8 +1,5 @@
 {
   "Slots" : [ {
-    "id" : 0,
-    "type" : 1
-  }, {
     "id" : 1,
     "type" : 1
   }, {
@@ -14,18 +11,18 @@
   }, {
     "id" : 4,    
     "Config" : {
-      "Channel Mask" : "+--",
+      "ChannelMask" : "+--",
       "Channels" : [ {
-        "RSSI Threshold" : 25
+        "RSSIThreshold" : 25
       }, {
-        "RSSI Threshold" : 25
+        "RSSIThreshold" : 25
       }, {
-        "RSSI Threshold" : 25
+        "RSSIThreshold" : 25
       } ],
       "PCriteria" : "RSSI",
       "PMode" : "Auto",
-      "Remote Controller IP" : "192.168.2.24",
-      "Remote Controller Idx" : 2
+      "RemoteControllerIP" : "192.168.2.24",
+      "RemoteControllerIdx" : 2
     },
     "HWRev" : 1.01,
     "MFG" : "F183214",
@@ -35,30 +32,30 @@
     "Status" : {
       "Channels" : [ {
         "Mode" : "Rx",
-        "OPT Alarm" : 0,
-        "RF Alarm" : 0,
+        "OPTAlarm" : 0,
+        "RFAlarm" : 0,
         "RSSI" : 28,
         "Status" : "Normal",
-        "TEMP Alarm" : 0
+        "TEMPAlarm" : 0
       }, {
         "Mode" : "Rx",
-        "OPT Alarm" : 0,
-        "RF Alarm" : 0,
+        "OPTAlarm" : 0,
+        "RFAlarm" : 0,
         "RSSI" : 30,
         "Status" : "Normal",
-        "TEMP Alarm" : 0
+        "TEMPAlarm" : 0
       }, {
         "Mode" : "Rx",
-        "OPT Alarm" : 0,
-        "RF Alarm" : 0,
+        "OPTAlarm" : 0,
+        "RFAlarm" : 0,
         "RSSI" : 31,
         "Status" : "Normal",
-        "TEMP Alarm" : 0
+        "TEMPAlarm" : 0
       } ],
       "PLevel" : 3,
       "Position" : 1,
-      "Protected Channel" : 0,
-      "Protected Controller IP" : "192.168.1.12",
+      "ProtectedChannel" : 0,
+      "ProtectedControllerIP" : "192.168.1.12",
       "UART" : "OK"
     },
     "type" : 9
@@ -76,16 +73,16 @@
     "Config" : {
       "Channel Mask" : "-+-",
       "Channels" : [ {
-        "RSSI Threshold" : 25
+        "RSSIThreshold" : 25
       }, {
-        "RSSI Threshold" : 25
+        "RSSIThreshold" : 25
       }, {
-        "RSSI Threshold" : 25
+        "RSSIThreshold" : 25
       } ],
-      "PCriteria" : "RF Alarm",
+      "PCriteria" : "RFAlarm",
       "PMode" : "Auto",
-      "Remote Controller IP" : "192.168.3.14",
-      "Remote Controller Idx" : 1
+      "RemoteControllerIP" : "192.168.3.14",
+      "RemoteControllerIdx" : 1
     },
     "HWRev" : 1.01,
     "MFG" : "F183215",
@@ -97,34 +94,34 @@
         "LNB" : "Enable",
         "LNB Volt" : 13,
         "Mode" : "Tx",
-        "OPT Alarm" : 0,
-        "RF Alarm" : 0,
+        "OPTAlarm" : 0,
+        "RFAlarm" : 0,
         "RSSI" : 28,
         "Status" : "Normal",
-        "TEMP Alarm" : 0
+        "TEMPAlarm" : 0
       }, {
         "LNB" : "Enable",
         "LNB Volt" : 13,
         "Mode" : "Tx",
-        "OPT Alarm" : 0,
-        "RF Alarm" : 0,
+        "OPTAlarm" : 0,
+        "RFAlarm" : 0,
         "RSSI" : 30,
         "Status" : "Normal",
-        "TEMP Alarm" : 0
+        "TEMPAlarm" : 0
       }, {
         "LNB" : "Enable",
         "LNB Volt" : 13,
         "Mode" : "Tx",
-        "OPT Alarm" : 0,
-        "RF Alarm" : 0,
+        "OPTAlarm" : 0,
+        "RFAlarm" : 0,
         "RSSI" : 31,
         "Status" : "Normal",
-        "TEMP Alarm" : 0
+        "TEMPAlarm" : 0
       } ],
       "PLevel" : 3,
       "Position" : 1,
-      "Protected Channel" : 0,
-      "Protected Controller IP" : "192.168.1.12",
+      "ProtectedChannel" : 0,
+      "ProtectedControllerIP" : "192.168.1.12",
       "UART" : "OK"
     },
     "type" : 9
