@@ -74,7 +74,7 @@
     }, {
       "id" : 8,
       "Config" : {
-        "Channel Mask" : "-+-",
+        "ChannelMask" : "-+-",
         "Channels" : [ {
           "RSSIThreshold" : 25
         }, {
