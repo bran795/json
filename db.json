@@ -122,7 +122,7 @@
           "TEMPAlarm" : 0
         } ],
         "PLevel" : 3,
-        "Position" : 1,
+        "Position" : 2,
         "ProtectedChannel" : 0,
         "ProtectedControllerIP" : "192.168.1.12",
         "UART" : "OK"
