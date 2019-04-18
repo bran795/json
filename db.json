@@ -1,139 +1,155 @@
 {
   "ProtectionController" : { 
-    "IP" : "10.1.1.2",
-    "SWVer" : "3.10.04",
-    "Slots" : [ {
-      "id" : 1,
-      "type" : 1
-    }, {
-      "id" : 2,
-      "type" : 1
-    }, {
-      "id" : 3,
-      "type" : 1
-    }, {
-      "id" : 4,    
-      "Config" : {
-        "ChannelMask" : "+--",
-        "Channels" : [ {
-          "RSSIThreshold" : 25
-        }, {
-          "RSSIThreshold" : 25
-        }, {
-          "RSSIThreshold" : 25
-        } ],
-        "PCriteria" : "RSSI",
-        "PMode" : "Auto",
-        "RemoteControllerIP" : "192.168.2.24",
-        "RemoteControllerIdx" : 2
-      },
-      "HWRev" : 1.01,
-      "MFG" : "F183214",
-      "Mode" : "Rx",
-      "PN" : "RSW3",
-      "SWVer" : "1.01.03",
-      "Status" : {
-        "Channels" : [ {
-          "Mode" : "Rx",
-          "OPTAlarm" : 0,
-          "RFAlarm" : 0,
-          "RSSI" : 28,
-          "Status" : "Normal",
-          "TEMPAlarm" : 0
-        }, {
-          "Mode" : "Rx",
-          "OPTAlarm" : 0,
-          "RFAlarm" : 0,
-          "RSSI" : 30,
-          "Status" : "Normal",
-          "TEMPAlarm" : 0
-        }, {
-          "Mode" : "Rx",
-          "OPTAlarm" : 0,
-          "RFAlarm" : 0,
-          "RSSI" : 31,
-          "Status" : "Normal",
-          "TEMPAlarm" : 0
-        } ],
-        "PLevel" : 3,
-        "Position" : 1,
-        "ProtectedChannel" : 0,
-        "ProtectedControllerIP" : "192.168.1.12",
-        "UART" : "OK"
-      },
-      "type" : 9
-    }, {
-      "id" : 5,
-      "type" : 1
-    }, {
-      "id" : 6,
-      "type" : 1
-    }, {
-      "id" : 7,
-      "type" : 1
-    }, {
-      "id" : 8,
-      "Config" : {
-        "ChannelMask" : "-+-",
-        "Channels" : [ {
-          "RSSIThreshold" : 25
-        }, {
-          "RSSIThreshold" : 25
-        }, {
-          "RSSIThreshold" : 25
-        } ],
-        "PCriteria" : "RFAlarm",
-        "PMode" : "Auto",
-        "RemoteControllerIP" : "192.168.3.14",
-        "RemoteControllerIdx" : 1
-      },
-      "HWRev" : 1.01,
-      "MFG" : "F183215",
-      "Mode" : "Tx",
-      "PN" : "TSW3",
-      "SWVer" : "1.01.03",
-      "Status" : {
-        "Channels" : [ {
-          "LNB" : "Enable",
-          "LNB Volt" : 13,
-          "Mode" : "Tx",
-          "OPTAlarm" : 0,
-          "RFAlarm" : 0,
-          "RSSI" : 28,
-          "Status" : "Normal",
-          "TEMPAlarm" : 0
-        }, {
-          "LNB" : "Enable",
-          "LNB Volt" : 13,
-          "Mode" : "Tx",
-          "OPTAlarm" : 0,
-          "RFAlarm" : 0,
-          "RSSI" : 30,
-          "Status" : "Normal",
-          "TEMPAlarm" : 0
-        }, {
-          "LNB" : "Enable",
-          "LNB Volt" : 13,
-          "Mode" : "Tx",
-          "OPTAlarm" : 0,
-          "RFAlarm" : 0,
-          "RSSI" : 31,
-          "Status" : "Normal",
-          "TEMPAlarm" : 0
-        } ],
-        "PLevel" : 3,
-        "Position" : 2,
-        "ProtectedChannel" : 0,
-        "ProtectedControllerIP" : "192.168.1.12",
-        "UART" : "OK"
-      },
-      "type" : 9
-    }, {
-      "id" : 9,
-      "type" : 1
-    }, {
-      "id" : 10,
-      "type" : 1
-    } ]
-  }
-}
+    "IP" : "10.10.10.201" ,
+    "SWVer" : "V1.01.28" ,
+    "Slots" : [ 
+      { 
+        "id" : 4 ,
+        "Type" : 9 ,
+        "PN" : "TSW3" ,
+        "SN" : "F860046" ,
+        "CfgCnt" : 7 ,
+        "Mode" : "Tx" ,
+        "ProtWidth" : 3 ,
+        "Position" : 3 ,
+        "Peer" : "OK" ,
+        "Status" : { 
+          "UART" : "ERR" ,
+          "ProtChan" : 0 ,
+          "ProtChasisIP" : "0.0.0.0" ,
+          "Channels" : [ 
+            { 
+              "id" : 1 ,
+              "Type" : "NE" ,
+              "Alarm" : "N" ,
+              "Status" : "Missing" ,
+              "RSSI" : -1
+            } 
+            , 
+            { 
+              "id" : 2 ,
+              "Type" : "NE" ,
+              "Alarm" : "N" ,
+              "Status" : "Missing" ,
+              "RSSI" : -1
+            } 
+            , 
+            { 
+              "id" : 3 ,
+              "Type" : "Disconnected" ,
+              "Alarm" : "N" ,
+              "Status" : "Missing" ,
+              "RSSI" : 0
+            } 
+            , 
+            { 
+              "id" : 4 ,
+              "Type" : "NE" ,
+              "Alarm" : "N" ,
+              "Status" : "Missing" ,
+              "RSSI" : -1
+            } 
+          ] 
+        } , 
+        "Config" : { 
+          "ProtMode" : 0 ,
+          "Criteria" : "RF" ,
+          "Mask" : "++-" ,
+          "PeerIP" : "10.10.10.201" ,
+          "PeerIdx" : 9 ,
+          "Channels" : [ 
+            { 
+              "RssiThresh" : -20
+            } 
+            , 
+            { 
+              "RssiThresh" : -20
+            } 
+            , 
+            { 
+              "RssiThresh" : -20
+            } 
+            , 
+            { 
+              "RssiThresh" : -20
+            } 
+          ] 
+        }
+      } 
+      , 
+      { 
+        "id" : 9 ,
+        "Type" : 9 ,
+        "PN" : "RSW3" ,
+        "SN" : "F183214" ,
+        "CfgCnt" : 7 ,
+        "Mode" : "Rx" ,
+        "ProtWidth" : 3 ,
+        "Position" : 1 ,
+        "Peer" : "OK" ,
+        "Status" : { 
+          "UART" : "OK" ,
+          "ProtChan" : 0 ,
+          "ProtChasisIP" : "10.10.10.200" ,
+          "Channels" : [ 
+            { 
+              "id" : 1 ,
+              "Type" : "Rx" ,
+              "Alarm" : "N" ,
+              "Status" : "Normal" ,
+              "RSSI" : -30
+            } 
+            , 
+            { 
+              "id" : 2 ,
+              "Type" : "Rx" ,
+              "Alarm" : "RO" ,
+              "Status" : "Major" ,
+              "RSSI" : -43
+            } 
+            , 
+            { 
+              "id" : 3 ,
+              "Type" : "Disconnected" ,
+              "Alarm" : "N" ,
+              "Status" : "Missing" ,
+              "RSSI" : 0
+            } 
+            , 
+            { 
+              "id" : 4 ,
+              "Type" : "Rx" ,
+              "Alarm" : "N" ,
+              "Status" : "Normal" ,
+              "RSSI" : -32
+            } 
+          ] 
+        } , 
+        "Config" : { 
+          "ProtMode" : 0 ,
+          "Criteria" : "Any" ,
+          "Mask" : "++-" ,
+          "PeerIP" : "10.10.10.201" ,
+          "PeerIdx" : 4 ,
+          "Channels" : [ 
+            { 
+              "RssiThresh" : -20
+            } 
+            , 
+            { 
+              "RssiThresh" : -20
+            } 
+            , 
+            { 
+              "RssiThresh" : -20
+            } 
+            , 
+            { 
+              "RssiThresh" : -20
+            } 
+          ] 
+        }
+      } 
+    ] 
+  } 
+} 
