@@ -1,4 +1,14 @@
 {
+  "SWUpdate" : { 
+    "serverIPAddress" : "10.10.10.100" ,
+    "serverUsername" : "username" ,
+    "serverPassword" : "password" ,
+    "downloadFilename" : "image.bin" ,
+    "CurrDLStatus" : 1 ,
+    "CurrCommandStatus" : 1 ,
+    "CurrDLProgress" : 0
+  } ,
+
   "ProtectionController" : { 
     "IP" : "10.10.10.203" ,
     "SWVer" : "V1.02.10" ,
