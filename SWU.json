@@ -3,7 +3,7 @@
     "serverIPAddress" : "10.10.10.100" ,
     "serverUsername" : "username" ,
     "serverPassword" : "password" ,
-    "downloadFilename" : image.bin" ,
+    "downloadFilename" : "image.bin" ,
     "CurrDLStatus" : 1 ,
     "CurrCommandStatus" : 1 ,
     "CurrDLProgress" : 0
