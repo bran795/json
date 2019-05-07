@@ -1,0 +1,235 @@
+{
+    "System" : { 
+          "Model" : "MRS-C" ,
+          "IP" : "10.10.10.203" ,
+          "MACAdd" : "00:88:44:04:13:3F" ,
+          "SysName" : "defaultName" ,
+          "SysUpTime" : 62264 ,
+          "Date" : "14/04/19" ,
+          "Time" : "00:14:34" ,
+          "SWVer" : "V1.02.11"
+    },
+    "ProtectionController" : { 
+          "IP" : "10.10.10.203" ,
+          "SWVer" : "V1.02.11" ,
+          "Slots" : [ 
+            { 
+              "id" : 4 ,
+              "Type" : 9 ,
+              "PN" : "TSW3" ,
+              "SN" : "F860046" ,
+              "Uptime" : 56026 ,
+              "CfgCnt" : 1 ,
+              "Mode" : "Tx" ,
+              "ProtWidth" : 3 ,
+              "Position" : 0 ,
+              "Peer" : "OK" ,
+              "Status" : { 
+                "UART" : "OK" ,
+                "ProtChan" : 2 ,
+                "ProtChasisIP" : "10.10.10.200" ,
+                "HwPins" : "0xda" ,
+                "Channels" : [ 
+                  { 
+                    "id" : 1 ,
+                    "Type" : "Tx" ,
+                    "LNB" : "OFF" ,
+                    "LNBVolt" : 18 ,
+                    "Alarm" : "N" ,
+                    "Status" : "Normal" ,
+                    "RSSI" : -34
+                  } 
+                  , 
+                  { 
+                    "id" : 2 ,
+                    "Type" : "NE" ,
+                    "Alarm" : "N" ,
+                    "Status" : "Missing" ,
+                    "RSSI" : -1
+                  } 
+                  , 
+                  { 
+                    "id" : 3 ,
+                    "Type" : "N/A" ,
+                    "Alarm" : "-" ,
+                    "Status" : "N/A" ,
+                    "RSSI" : 0
+                  } 
+                  , 
+                  { 
+                    "id" : 4 ,
+                    "Type" : "Tx" ,
+                    "LNB" : "OFF" ,
+                    "LNBVolt" : 18 ,
+                    "Alarm" : "N" ,
+                    "Status" : "Normal" ,
+                    "RSSI" : -36
+                  } 
+                ] 
+              } , 
+              "Config" : { 
+                "ProtMode" : 0 ,
+                "Criteria" : "RF" ,
+                "Mask" : "++-" ,
+                "PeerIP" : "10.10.10.203" ,
+                "PeerIdx" : 9 ,
+                "Channels" : [ 
+                  { 
+                    "RssiThresh" : -11
+                  } 
+                  , 
+                  { 
+                    "RssiThresh" : 9
+                  } 
+                  , 
+                  { 
+                    "RssiThresh" : 9
+                  } 
+                  , 
+                  { 
+                    "RssiThresh" : 9
+                  } 
+                ] 
+              }
+            } 
+            , 
+            { 
+              "id" : 9 ,
+              "Type" : 9 ,
+              "PN" : "RSW3" ,
+              "SN" : "F183214" ,
+              "Uptime" : 44630 ,
+              "CfgCnt" : 1 ,
+              "Mode" : "Rx" ,
+              "ProtWidth" : 3 ,
+              "Position" : 1 ,
+              "Peer" : "OK" ,
+              "Status" : { 
+                "UART" : "OK" ,
+                "ProtChan" : 2 ,
+                "ProtChasisIP" : "10.10.10.200" ,
+                "HwPins" : "0xa" ,
+                "Channels" : [ 
+                  { 
+                    "id" : 1 ,
+                    "Type" : "Rx" ,
+                    "Alarm" : "N" ,
+                    "Status" : "Normal" ,
+                    "RSSI" : -7
+                  } 
+                  , 
+                  { 
+                    "id" : 2 ,
+                    "Type" : "Rx" ,
+                    "Alarm" : "RO" ,
+                    "Status" : "Major" ,
+                    "RSSI" : -43
+                  } 
+                  , 
+                  { 
+                    "id" : 3 ,
+                    "Type" : "N/A" ,
+                    "Alarm" : "-" ,
+                    "Status" : "N/A" ,
+                    "RSSI" : 0
+                  } 
+                  , 
+                  { 
+                    "id" : 4 ,
+                    "Type" : "Rx" ,
+                    "Alarm" : "N" ,
+                    "Status" : "Normal" ,
+                    "RSSI" : -12
+                  } 
+                ] 
+              } , 
+              "Config" : { 
+                "ProtMode" : 0 ,
+                "Criteria" : "Any" ,
+                "Mask" : "++-" ,
+                "PeerIP" : "10.10.10.203" ,
+                "PeerIdx" : 4 ,
+                "Channels" : [ 
+                  { 
+                    "RssiThresh" : -5
+                  } 
+                  , 
+                  { 
+                    "RssiThresh" : -4
+                  } 
+                  , 
+                  { 
+                    "RssiThresh" : -3
+                  } 
+                  , 
+                  { 
+                    "RssiThresh" : -2
+                  } 
+                ] 
+              }
+            } 
+          ] , 
+          "PSU" : [ 
+            { 
+              "id" : 14 ,
+              "Equipped" : 0 ,
+              "12Vdc" : -9999 ,
+              "3.3Vdc" : -9999
+            } 
+            , 
+            { 
+              "id" : 15 ,
+              "Equipped" : 1 ,
+              "12Vdc" : 1220 ,
+              "3.3Vdc" : 340
+            } 
+          ] 
+    },
+    "EventLog" : { 
+    "Events" : [ 
+      { 
+        "seqId" : 1 ,
+        "sysUpTime" : 143 ,
+        "Date" : "14/04/19" ,
+        "Time" : "00:04:12" ,
+        "EventType" : "Card Inserted" ,
+        "SlotIdx" : 4 ,
+        "Module" : "PRS"
+      } , 
+      { 
+        "seqId" : 2 ,
+        "sysUpTime" : 199 ,
+        "Date" : "14/04/19" ,
+        "Time" : "00:04:12" ,
+        "EventType" : "Card Inserted" ,
+        "SlotIdx" : 9 ,
+        "Module" : "PRS"
+      } , 
+      { 
+        "seqId" : 3 ,
+        "sysUpTime" : 298 ,
+        "Date" : "14/04/19" ,
+        "Time" : "00:04:12" ,
+        "EventType" : "PSU Inserted" ,
+        "SlotIdx" : 15 ,
+        "Module" : "PSU"
+      } 
+    ] 
+  },
+  "Traps" : { 
+      "TrapDest" : [ 
+        "10.10.10.100"
+      ] 
+    },
+    "SWUpdate" : { 
+        "serverIPAddress" : "10.10.10.100" ,
+        "serverUsername" : "user" ,
+        "serverPassword" : "123456" ,
+        "downloadFilename" : "vxWorks_rom.bin" ,
+        "currDLStatus" : 1 ,
+        "currCommandStatus" : 1 ,
+        "currDLProgress" : 0 ,
+        "imageFilename" : "vxWorks_rom.bin" ,
+        "imageFilesize" : 1505424
+    } 
+}
