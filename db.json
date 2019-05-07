@@ -11,6 +11,7 @@
           "SWVer" : "V1.02.11"
     }
     },
+    "MRS.json" : {
     "ProtectionController" : { 
           "IP" : "10.10.10.203" ,
           "SWVer" : "V1.02.11" ,
@@ -186,7 +187,10 @@
               "3.3Vdc" : 340
             } 
           ] 
+    }
     },
+    "EventLog.json" :
+    {
     "EventLog" : { 
     "Events" : [ 
       { 
@@ -217,12 +221,16 @@
         "Module" : "PSU"
       } 
     ] 
+  }
   },
+  "Traps.json": {
   "Traps" : { 
       "TrapDest" : [ 
         "10.10.10.100"
       ] 
-    },
+    }
+  },
+    "SWU.json": {
     "SWUpdate" : { 
         "serverIPAddress" : "10.10.10.100" ,
         "serverUsername" : "user" ,
@@ -234,4 +242,5 @@
         "imageFilename" : "vxWorks_rom.bin" ,
         "imageFilesize" : 1505424
     } 
+}
 }
