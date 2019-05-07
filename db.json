@@ -1,4 +1,5 @@
 {
+    "System.json" : { 
     "System" : { 
           "Model" : "MRS-C" ,
           "IP" : "10.10.10.203" ,
@@ -8,6 +9,7 @@
           "Date" : "14/04/19" ,
           "Time" : "00:14:34" ,
           "SWVer" : "V1.02.11"
+    }
     },
     "ProtectionController" : { 
           "IP" : "10.10.10.203" ,
