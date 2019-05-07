@@ -242,5 +242,8 @@
         "imageFilename" : "vxWorks_rom.bin" ,
         "imageFilesize" : 1505424
     } 
-}
+},
+"TrapSet.json" :
+    {
+    }    
 }
