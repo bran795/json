@@ -1,4 +1,14 @@
 {
+  "System" : { 
+    "Model" : "MRS-C" ,
+    "IP" : "10.10.10.203" ,
+    "MACAdd" : "00:88:44:04:13:3F" ,
+    "SysName" : "defaultName" ,
+    "SysUpTime" : 62264 ,
+    "Date" : "14/04/19" ,
+    "Time" : "00:14:34" ,
+    "SWVer" : "V1.02.11"
+  } ,
   "ProtectionController" : { 
     "IP" : "10.10.10.201" ,
     "SWVer" : "V1.01.28" ,
